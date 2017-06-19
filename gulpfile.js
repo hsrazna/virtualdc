@@ -44,7 +44,7 @@ gulp.task('min-scripts', function() {
 
 gulp.task('browser-sync', function() {
 	browserSync({
-		proxy: "virtualdc.loc",
+		proxy: "virtualdc2.loc",
 		// server: {
 		// 	baseDir: 'layout'
 		// },
