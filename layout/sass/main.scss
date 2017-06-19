@@ -5,25 +5,23 @@
 @import "style";
 
 
-// @import "header";
-// @import "footer";
-// @import "topline";
-// @import "maincontent";
-// @import "shashki";
+@import "content";
 
 
 
-// body{
-// 	background: #eff0f4;
-// }
-// ul{
-// 	padding: 0;
-// 	margin: 0;
-// }
-// p{
-// 	margin: 0;
-// }
-
+ul{
+	padding: 0;
+	margin: 0;
+}
+p{
+	margin: 0;
+}
+.container{
+	width: 100%;
+	max-width: 1322px;
+	outline: 1px solid red;
+	min-height: 20px;
+}
 
 
 
