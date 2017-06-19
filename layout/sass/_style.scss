@@ -4,8 +4,19 @@
 @import "vars";
 
 
+@import "azheader";
+@import "azsitebar";
 
+body{
+	padding: 88px 0 0 218px;
+}
 
+.az-container{
+	width: 100%;
+	max-width: 1322px;
+	outline: 1px solid red;
+	min-height: 20px;
+}
 
 
 
