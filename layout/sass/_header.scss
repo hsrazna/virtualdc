@@ -18,7 +18,11 @@
 
 .header-right{
 	width: calc(100% - 218px);
+	max-width: 1322px;
 	text-align: right;
+	font-size: 0;
+	display: inline-block;
+	vertical-align: top;
 }
 
 .header-phone{
@@ -26,4 +30,6 @@
 	font-size: 18px;
 	color: #363d44;
 	line-height: 24px;
+	display: inline-block;
+	vertical-align: middle;
 }
