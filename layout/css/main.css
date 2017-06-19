@@ -28,7 +28,26 @@
   left: 0;
   width: 100%;
   height: 88px;
-  outline: 1px solid #aaa; }
+  outline: 1px solid #aaa;
+  font-size: 0; }
+
+.header-logo {
+  width: 218px;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 27px;
+  padding-left: 22px; }
+
+.header-right {
+  width: -webkit-calc(100% - 218px);
+  width: calc(100% - 218px);
+  text-align: right; }
+
+.header-phone {
+  font-family: "circe-bold";
+  font-size: 18px;
+  color: #363d44;
+  line-height: 24px; }
 
 .sidebar {
   position: fixed;
