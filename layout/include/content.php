@@ -1,7 +1,3 @@
 <div class="container">
-	
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum repellat repellendus totam illo doloremque aliquam fugit dicta maiores unde sit animi, provident harum voluptatem corporis numquam dolorem facere enim ducimus!
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum repellat repellendus totam illo doloremque aliquam fugit dicta maiores unde sit animi, provident harum voluptatem corporis numquam dolorem facere enim ducimus!
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum repellat repellendus totam illo doloremque aliquam fugit dicta maiores unde sit animi, provident harum voluptatem corporis numquam dolorem facere enim ducimus!
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio iure earum quis voluptas, corporis a repellat reprehenderit ex placeat optio! Fugiat odio at obcaecati ducimus alias perspiciatis harum aliquam, sunt?
 </div>
