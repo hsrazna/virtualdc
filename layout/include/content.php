@@ -37,4 +37,13 @@
 			</div>
 		</div>
 	</div>
+	<div class="box2">
+		<div class="box2-wrapp">
+			<div class="box2-center-wrapp">
+				<span class="box1-left-title box2-title">Корпоративная почта</span>
+				<span class="box1-left-subtitle">от 1000 руб.</span>
+				<p class="box1-left-text">Здесь написать копирайт для данного блока. Он может состоять из трёх-четрыёх строчек, желательно – три строки.</p>
+			</div>
+		</div>
+	</div>
 </div>

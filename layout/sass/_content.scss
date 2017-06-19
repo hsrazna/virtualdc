@@ -2,9 +2,35 @@
 
 
 
+.box2{
+	background: #fff;
+	padding: 0px 0px 10px 10px;
+}
+.box2-wrapp{
+	background: url(../img/box2-fon.jpg) center center no-repeat;
+	background-size: cover;
+	height: 420px;
+	padding-left: 60px;
+	padding-top: 55px;
+}
+.box2-title{
+	border-bottom: 1px solid rgba(255 ,255 ,255,0.3) !important;
+}
+.box2-center-wrapp{
+	width: 100%;
+	max-width: 380px;
+}
 
 
 
+
+
+
+
+
+
+
+/***********************************************/
 .box1{
 	width: 100%;
 	background: #fff;
@@ -71,23 +97,6 @@
 	margin-left: 55px;
 	margin-top: 55px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /***********************************************/
 .topbox{
 	background: url(../img/mainbox-fon.jpg) center center no-repeat;
