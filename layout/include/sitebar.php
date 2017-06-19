@@ -1,1 +1,1 @@
-<div class="az-sidebar"></div>
+<div class="sidebar"></div>

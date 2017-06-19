@@ -22,7 +22,7 @@
   font-weight: normal;
   src: url("/fonts/circe-regular/circe-regular.eot?#iefix") format("embedded-opentype"), url("/fonts/circe-regular/circe-regular.woff2") format("woff2"), url("/fonts/circe-regular/circe-regular.woff") format("woff"), url("/fonts/circe-regular/circe-regular.ttf") format("truetype"), url("/fonts/circe-regular/circe-regular.svg#circe-regular") format("svg"); }
 
-.az-header {
+.header {
   position: fixed;
   top: 0;
   left: 0;
@@ -30,7 +30,7 @@
   height: 88px;
   outline: 1px solid #aaa; }
 
-.az-sidebar {
+.sidebar {
   position: fixed;
   top: 88px;
   left: 0;
@@ -42,7 +42,7 @@
 body {
   padding: 88px 0 0 218px; }
 
-.az-container {
+.container {
   width: 100%;
   max-width: 1322px;
   outline: 1px solid red;
