@@ -2,8 +2,34 @@
 
 
 
-
-
+.topbox{
+	background: url(../img/mainbox-fon.jpg);
+	background-size: cover;
+	height: 628px;
+}
+.topbox-title{
+	display: block;
+	font-family: "circe-regular";
+	color: #fff;
+	font-size: 44px;
+	line-height: 56px;
+}
+.topbox-item-title{
+	display: block;
+	color: #fff;
+	font-family: "circe-bold";
+	font-size: 16px;
+	line-height: 26px;
+	text-transform: uppercase;
+}
+.topbox-item-link{
+	display: block;
+	width: 100%;
+	max-width: 142px;
+	height: 44px;
+	border: 1px solid #fafafa;
+	border-radius: 2px;
+}
 
 
 

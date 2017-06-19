@@ -32,4 +32,10 @@
 	line-height: 24px;
 	display: inline-block;
 	vertical-align: middle;
+	padding-left: 21px;
+	position: relative;
+	&::before{
+		content: '';
+		
+	}
 }

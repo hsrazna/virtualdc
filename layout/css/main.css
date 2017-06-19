@@ -53,7 +53,11 @@
   color: #363d44;
   line-height: 24px;
   display: inline-block;
-  vertical-align: middle; }
+  vertical-align: middle;
+  padding-left: 21px;
+  position: relative; }
+  .header-phone::before {
+    content: ''; }
 
 .sidebar {
   position: fixed;
@@ -67,6 +71,35 @@
 body {
   padding: 88px 0 0 218px; }
 
+.topbox {
+  background: url(../img/mainbox-fon.jpg);
+  background-size: cover;
+  height: 628px; }
+
+.topbox-title {
+  display: block;
+  font-family: "circe-regular";
+  color: #fff;
+  font-size: 44px;
+  line-height: 56px; }
+
+.topbox-item-title {
+  display: block;
+  color: #fff;
+  font-family: "circe-bold";
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase; }
+
+.topbox-item-link {
+  display: block;
+  width: 100%;
+  max-width: 142px;
+  height: 44px;
+  border: 1px solid #fafafa;
+  -webkit-border-radius: 2px;
+          border-radius: 2px; }
+
 ul {
   padding: 0;
   margin: 0; }
@@ -74,8 +107,10 @@ ul {
 p {
   margin: 0; }
 
-.container {
+.contain {
   width: 100%;
   max-width: 1322px;
   outline: 1px solid red;
-  min-height: 20px; }
+  min-height: 20px;
+  padding-left: 0px !important;
+  padding-right: 0px !important; }
