@@ -9,4 +9,5 @@
 		<a href="#" class="header-reg  header-marginr4">Регистрация</a>
 		<a href="#" class="header-cart">Корзина</a>
 	</div>
+	<a href="#" class="header-menu-icon toggle-mnu">Меню<span></span></a>
 </div>

@@ -5,6 +5,19 @@
 	width: 218px;
 	height: calc(100% - 88px);
 	background: #363636;
+	transition: all .3s ease-in-out;
+	@include desktop(992){
+		width: 40px;
+	}
+	@include desktop(768){
+		width: 218px;
+		left: -218px;
+		transition: all .5s ease-in-out;
+	}
+}
+
+.sidebar-show{
+	left: 0px;
 }
 
 .sidebar-menu{
@@ -24,6 +37,20 @@
 		font-size: 18px;
 		padding-top: 30px;
 		line-height: 24px;
+		@include desktop(992){
+			font-size: 0;
+			width: 30px;
+			height: 30px;
+			background-position: center;
+			padding: 0;
+		}
+		@include desktop(768){
+			width: auto;
+			height: auto;
+			background-position: center bottom 28px;
+			padding-top: 30px;
+			font-size: 18px;
+		}
 	}
 }
 
