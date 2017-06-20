@@ -242,6 +242,55 @@
 body {
   padding: 88px 0 0 218px; }
 
+.box3 {
+  background: #fff;
+  width: 100%;
+  font-size: 0; }
+
+.box3-left {
+  display: inline-block;
+  width: 34.3%;
+  vertical-align: top;
+  margin: 0px 5px 10px 10px; }
+
+.box3-right {
+  display: inline-block;
+  width: 64%;
+  vertical-align: top;
+  margin: 0px 0px 10px 5px; }
+
+.box3-righttop {
+  margin-bottom: 10px; }
+
+.box3-left-wrapp {
+  background: url(../img/box3-fonleft.jpg) center center no-repeat;
+  background-size: cover;
+  height: 850px;
+  padding-left: 60px;
+  padding-top: 55px; }
+
+.box3-righttop-wrapp {
+  background: url(../img/box3-fonrighttop.jpg) center center no-repeat;
+  background-size: cover;
+  height: 420px;
+  padding-left: 60px;
+  padding-top: 55px; }
+
+.box3-rightbottom {
+  background: url(../img/box3-fonrightbottom.jpg) center center no-repeat;
+  background-size: cover;
+  height: 420px;
+  padding-left: 60px;
+  padding-top: 55px; }
+
+.box3-right-text {
+  width: 100%;
+  max-width: 355px; }
+
+.box3-right-title {
+  border-bottom: 1px solid #cdcdce; }
+
+/***********************************************/
 .box2 {
   background: #fff;
   padding: 0px 0px 10px 10px; }

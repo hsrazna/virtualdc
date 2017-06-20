@@ -46,4 +46,29 @@
 			</div>
 		</div>
 	</div>
+	<div class="box3">
+		<div class="box3-left">
+			<div class="box3-left-wrapp">
+				<span class="box1-left-title">Выделенный сервер</span>
+				<span class="box1-left-subtitle">от 1000 руб.</span>
+				<p class="box1-left-text">Здесь написать копирайт для блока. Он может состоять из 1-2 строк.</p>
+			</div>
+		</div>
+		<div class="box3-right">
+			<div class="box3-righttop">
+				<div class="box3-righttop-wrapp">
+					<span class="box1-left-title box3-right-title">1С в облаке</span>
+					<span class="box1-left-subtitle">от 1000 руб.</span>
+					<p class="box1-left-text box3-right-text">Здесь написать копирайт для данного блока. Он может состоять из трёх-четрыёх строчек, желательно – три строки. </p>
+				</div>
+			</div>
+			<div class="box3-rightbottom">
+				<div class="box1-rightbottom-wrapp">
+					<span class="box1-left-title box3-right-title">Виртуальный дата-центр</span>
+					<span class="box1-left-subtitle">от 1000 руб.</span>
+					<p class="box1-left-text box3-right-text">Здесь написать копирайт для данного блока. Он может состоять из трёх-четрыёх строчек, желательно – три строки. </p>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
