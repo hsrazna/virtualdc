@@ -6,9 +6,16 @@
 
 @import "header";
 @import "sidebar";
+@import "footer";
 
 body{
 	padding: 88px 0 0 218px;
+	@include desktop(992){
+		padding: 88px 0 0 40px;
+	}
+	@include desktop(768){
+		padding: 88px 0 0 0px;
+	}
 }
 
 

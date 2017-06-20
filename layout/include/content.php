@@ -31,7 +31,7 @@
 		</div>
 		<div class="box1-right">
 			<div class="box1-right-wrapp">
-				<span class="box1-left-title box1-right-title">Решения для интернет-магазинов</span>
+				<span class="box1-right-title">Решения для интернет-магазинов</span>
 				<span class="box1-left-subtitle">от 1000 руб.</span>
 				<p class="box1-left-text box1-right-text">Здесь написать копирайт для блока. Он может состоять из 1-2 строк.</p>
 			</div>

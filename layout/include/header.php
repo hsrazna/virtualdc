@@ -1,4 +1,4 @@
-<div class="header">
+<header class="header">
 	<div class="header-logo">
 		<img src="img/header-logo.png" alt="VPS Hoster">
 	</div>
@@ -9,4 +9,5 @@
 		<a href="#" class="header-reg  header-marginr4">Регистрация</a>
 		<a href="#" class="header-cart">Корзина</a>
 	</div>
-</div>
+	<a href="#" class="header-menu-icon toggle-mnu">Меню<span></span></a>
+</header>
