@@ -40,6 +40,7 @@
 	<?php require_once "include/header.php"; ?>
 	<?php require_once "include/sidebar.php"; ?>
 	<?php require_once "include/content.php"; ?>
+	<?php require_once "include/content-bottom.php"; ?>
 	<?php require_once "include/footer.php"; ?>
 
 
