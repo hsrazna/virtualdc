@@ -721,6 +721,209 @@ body {
     body {
       padding: 88px 0 0 0px; } }
 
+.formbox {
+  width: 100%;
+  font-size: 0;
+  padding: 30px 15px;
+  text-align: center;
+  background: #fff; }
+  @media only screen and (min-width: 480px) {
+    .formbox {
+      padding: 30px 50px; } }
+  @media only screen and (min-width: 768px) {
+    .formbox {
+      padding: 30px 30px;
+      text-align: left; } }
+  @media only screen and (min-width: 992px) {
+    .formbox {
+      padding: 30px 50px; } }
+  @media only screen and (min-width: 1200px) {
+    .formbox {
+      padding: 75px 60px; } }
+
+.formbox-left, .formbox-right {
+  display: block;
+  width: 100%;
+  vertical-align: top; }
+  @media only screen and (min-width: 768px) {
+    .formbox-left, .formbox-right {
+      display: inline-block;
+      width: 50%; } }
+
+.formbox-right {
+  padding-left: 0px;
+  padding-top: 20px; }
+  @media only screen and (min-width: 768px) {
+    .formbox-right {
+      padding-top: 7px; } }
+  @media only screen and (min-width: 992px) {
+    .formbox-right {
+      padding-left: 0px; } }
+  @media only screen and (min-width: 1200px) {
+    .formbox-right {
+      padding-left: 50px; } }
+  @media only screen and (min-width: 1600px) {
+    .formbox-right {
+      padding-left: 60px; } }
+
+.helping-form input[type="text"] {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  max-width: 230px;
+  height: 44px;
+  border: 1px solid #2c7fbf;
+  -webkit-border-radius: 22px;
+          border-radius: 22px;
+  color: #2c7fbf;
+  font-size: 17px;
+  line-height: 44px;
+  font-family: "circe-bold";
+  outline: none;
+  background: #fff;
+  padding-left: 25px; }
+  @media only screen and (min-width: 480px) {
+    .helping-form input[type="text"] {
+      max-width: 270px; } }
+  @media only screen and (min-width: 1200px) {
+    .helping-form input[type="text"] {
+      max-width: 320px; } }
+  .helping-form input[type="text"]::-moz-placeholder {
+    color: #2c7fbf; }
+  .helping-form input[type="text"]::-webkit-input-placeholder {
+    color: #2c7fbf; }
+
+.helping-form input[type="submit"] {
+  display: inline-block;
+  vertical-align: top;
+  width: 45px;
+  height: 44px;
+  border: 1px solid #2c7fbf;
+  -webkit-border-radius: 22px;
+          border-radius: 22px;
+  background: url(../img/formbox-icon.png) center center no-repeat #fff;
+  outline: none;
+  cursor: pointer;
+  margin-left: 10px; }
+
+.formbox-title {
+  display: inline-block;
+  color: #363d44;
+  font-family: "circe-regular";
+  font-size: 16px;
+  line-height: 32px; }
+  .formbox-title span {
+    font-family: "circe-bold"; }
+  @media only screen and (min-width: 480px) {
+    .formbox-title {
+      font-size: 24px;
+      line-height: 44px; } }
+  @media only screen and (min-width: 992px) {
+    .formbox-title {
+      font-size: 24px; } }
+  @media only screen and (min-width: 1200px) {
+    .formbox-title {
+      font-size: 34px; } }
+  @media only screen and (min-width: 1600px) {
+    .formbox-title {
+      font-size: 36px; } }
+
+.formbox-text {
+  display: block;
+  font-family: "circe-regular";
+  color: #585e62;
+  font-size: 12px;
+  line-height: 26px;
+  text-align: center;
+  margin-top: 10px;
+  opacity: 0.6; }
+  @media only screen and (min-width: 1200px) {
+    .formbox-text {
+      font-size: 16px;
+      margin-top: 20px; } }
+
+.formbox-textwrapp {
+  width: 100%;
+  max-width: 270px;
+  margin: 0 auto; }
+  @media only screen and (min-width: 768px) {
+    .formbox-textwrapp {
+      margin: 0; } }
+  @media only screen and (min-width: 992px) {
+    .formbox-textwrapp {
+      max-width: 270px; } }
+  @media only screen and (min-width: 1200px) {
+    .formbox-textwrapp {
+      max-width: 320px; } }
+
+/***********************************************/
+.advantages {
+  background: #f7f7f7;
+  padding: 30px 10px;
+  text-align: center;
+  margin-left: 0px; }
+  @media only screen and (min-width: 768px) {
+    .advantages {
+      margin-left: 10px; } }
+  @media only screen and (min-width: 992px) {
+    .advantages {
+      padding: 30px 10px; } }
+  @media only screen and (min-width: 1200px) {
+    .advantages {
+      padding: 65px 65px; } }
+
+.advantages-row {
+  width: 100%;
+  font-size: 0;
+  text-align: center; }
+
+.advantages-item {
+  display: block;
+  width: 100%;
+  vertical-align: top;
+  text-align: center;
+  padding: 15px 10px; }
+  @media only screen and (min-width: 768px) {
+    .advantages-item {
+      display: inline-block;
+      width: 33.3%;
+      padding: 15px 10px; } }
+  @media only screen and (min-width: 992px) {
+    .advantages-item {
+      padding: 25px 25px; } }
+
+.advantages-imgbox {
+  margin-bottom: 15px; }
+
+.advantages-title {
+  display: block;
+  font-family: "circe-bold";
+  color: #0f1c27;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+  margin: 15px 0px; }
+
+.advantages-text {
+  display: block;
+  font-family: "circe-regular";
+  color: #0f1c27;
+  font-size: 17px;
+  line-height: 26px; }
+
+.advantages-toptitle {
+  display: block;
+  font-family: "circe-bold";
+  color: #0f1c27;
+  font-size: 18px;
+  line-height: 52px;
+  text-transform: uppercase;
+  margin-bottom: 25px; }
+  @media only screen and (min-width: 480px) {
+    .advantages-toptitle {
+      font-size: 24px; } }
+
+/***********************************************/
 .box3 {
   background: #fff;
   width: 100%;

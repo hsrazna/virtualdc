@@ -71,4 +71,67 @@
 			</div>
 		</div>
 	</div>
+	<div class="advantages">
+		<span class="advantages-toptitle">преимущества заголовок</span>
+		<div class="advantages-row">
+			<div class="advantages-item">
+				<div class="advantages-imgbox">
+					<img src="img/advantages_icon.png" alt="img">
+				</div>
+				<span class="advantages-title">заголовок</span>
+				<p class="advantages-text">Здесь более подробно раскрыть основные УТП, которые касаются работы компании</p>
+			</div>
+			<div class="advantages-item">
+				<div class="advantages-imgbox">
+					<img src="img/advantages_icon1.png" alt="img">
+				</div>
+				<span class="advantages-title">заголовок</span>
+				<p class="advantages-text">Здесь более подробно раскрыть основные УТП, которые касаются работы компании</p>
+			</div>
+			<div class="advantages-item">
+				<div class="advantages-imgbox">
+					<img src="img/advantages_icon2.png" alt="img">
+				</div>
+				<span class="advantages-title">заголовок</span>
+				<p class="advantages-text">Здесь более подробно раскрыть основные УТП, которые касаются работы компании</p>
+			</div>
+		</div>
+		<div class="advantages-row">
+			<div class="advantages-item">
+				<div class="advantages-imgbox">
+					<img src="img/advantages_icon.png" alt="img">
+				</div>
+				<span class="advantages-title">заголовок</span>
+				<p class="advantages-text">Здесь более подробно раскрыть основные УТП, которые касаются работы компании</p>
+			</div>
+			<div class="advantages-item">
+				<div class="advantages-imgbox">
+					<img src="img/advantages_icon1.png" alt="img">
+				</div>
+				<span class="advantages-title">заголовок</span>
+				<p class="advantages-text">Здесь более подробно раскрыть основные УТП, которые касаются работы компании</p>
+			</div>
+			<div class="advantages-item">
+				<div class="advantages-imgbox">
+					<img src="img/advantages_icon2.png" alt="img">
+				</div>
+				<span class="advantages-title">заголовок</span>
+				<p class="advantages-text">Здесь более подробно раскрыть основные УТП, которые касаются работы компании</p>
+			</div>
+		</div>
+	</div>
+	<div class="formbox">
+		<div class="formbox-left">
+			<span class="formbox-title">Вам нужно <span>индивидуальное</span> решение? Мы поможем.</span>
+		</div>
+		<div class="formbox-right">
+			<form class="helping-form">
+				<input type="text" placeholder="Ваш телефон">
+				<input type="submit" value="">
+				<div class="formbox-textwrapp">
+					<p class="formbox-text">Наш менеджер перезвонит Вам в течение рабочего дня и поможет решить вашу задачу</p>
+				</div>
+			</form>
+		</div>
+	</div>
 </div>
