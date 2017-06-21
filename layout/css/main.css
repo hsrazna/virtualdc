@@ -2,25 +2,25 @@
   font-family: circe-bold;
   font-style: normal;
   font-weight: normal;
-  src: url("/fonts/circe-bold/circe-bold.eot?#iefix") format("embedded-opentype"), url("/fonts/circe-bold/circe-bold.woff2") format("woff2"), url("/fonts/circe-bold/circe-bold.woff") format("woff"), url("/fonts/circe-bold/circe-bold.ttf") format("truetype"), url("/fonts/circe-bold/circe-bold.svg#circe-bold") format("svg"); }
+  src: url("../fonts/circe-bold/circe-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/circe-bold/circe-bold.woff2") format("woff2"), url("../fonts/circe-bold/circe-bold.woff") format("woff"), url("../fonts/circe-bold/circe-bold.ttf") format("truetype"), url("../fonts/circe-bold/circe-bold.svg#circe-bold") format("svg"); }
 
 @font-face {
   font-family: circe-extra-light;
   font-style: normal;
   font-weight: normal;
-  src: url("/fonts/circe-extra-light/circe-extra-light.eot?#iefix") format("embedded-opentype"), url("/fonts/circe-extra-light/circe-extra-light.woff2") format("woff2"), url("/fonts/circe-extra-light/circe-extra-light.woff") format("woff"), url("/fonts/circe-extra-light/circe-extra-light.ttf") format("truetype"), url("/fonts/circe-extra-light/circe-extra-light.svg#circe-extra-light") format("svg"); }
+  src: url("../fonts/circe-extra-light/circe-extra-light.eot?#iefix") format("embedded-opentype"), url("../fonts/circe-extra-light/circe-extra-light.woff2") format("woff2"), url("../fonts/circe-extra-light/circe-extra-light.woff") format("woff"), url("../fonts/circe-extra-light/circe-extra-light.ttf") format("truetype"), url("../fonts/circe-extra-light/circe-extra-light.svg#circe-extra-light") format("svg"); }
 
 @font-face {
   font-family: circe-light;
   font-style: normal;
   font-weight: normal;
-  src: url("/fonts/circe-light/circe-light.eot?#iefix") format("embedded-opentype"), url("/fonts/circe-light/circe-light.woff2") format("woff2"), url("/fonts/circe-light/circe-light.woff") format("woff"), url("/fonts/circe-light/circe-light.ttf") format("truetype"), url("/fonts/circe-light/circe-light.svg#circe-light") format("svg"); }
+  src: url("../fonts/circe-light/circe-light.eot?#iefix") format("embedded-opentype"), url("../fonts/circe-light/circe-light.woff2") format("woff2"), url("../fonts/circe-light/circe-light.woff") format("woff"), url("../fonts/circe-light/circe-light.ttf") format("truetype"), url("../fonts/circe-light/circe-light.svg#circe-light") format("svg"); }
 
 @font-face {
   font-family: circe-regular;
   font-style: normal;
   font-weight: normal;
-  src: url("/fonts/circe-regular/circe-regular.eot?#iefix") format("embedded-opentype"), url("/fonts/circe-regular/circe-regular.woff2") format("woff2"), url("/fonts/circe-regular/circe-regular.woff") format("woff"), url("/fonts/circe-regular/circe-regular.ttf") format("truetype"), url("/fonts/circe-regular/circe-regular.svg#circe-regular") format("svg"); }
+  src: url("../fonts/circe-regular/circe-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/circe-regular/circe-regular.woff2") format("woff2"), url("../fonts/circe-regular/circe-regular.woff") format("woff"), url("../fonts/circe-regular/circe-regular.ttf") format("truetype"), url("../fonts/circe-regular/circe-regular.svg#circe-regular") format("svg"); }
 
 .header {
   position: fixed;
