@@ -3,6 +3,232 @@
 
 
 
+
+
+.formbox{
+	width: 100%;
+	font-size: 0;
+	padding: 30px 15px;
+	text-align: center;
+	background: #fff;
+	@include mobile(480){
+		padding: 30px 50px;
+	}
+	@include mobile(768){
+		padding: 30px 30px;
+		text-align: left;
+	}
+	@include mobile(992){
+		padding: 30px 50px;
+	}
+	@include mobile(1200){
+		padding: 75px 60px;
+	}
+}
+.formbox-left, .formbox-right{
+	display: block;
+	width: 100%;
+	vertical-align: top;
+	@include mobile(768){
+		display: inline-block;
+		width: 50%;
+	}
+}
+.formbox-right{
+	padding-left: 0px;
+	padding-top: 20px;
+	@include mobile(768){
+		padding-top: 7px;
+	}
+	@include mobile(992){
+		padding-left: 0px;
+	}
+	@include mobile(1200){
+		padding-left: 50px;
+	}
+	@include mobile(1600){
+		padding-left: 60px;
+	}
+}
+.helping-form{
+	input[type="text"]{
+		display: inline-block;
+		vertical-align: top;
+		width: 100%;
+		max-width: 230px;
+		height: 44px;
+		border: 1px solid #2c7fbf;
+		border-radius: 22px;
+		color: #2c7fbf;
+		font-size: 17px;
+		line-height: 44px;
+		font-family: "circe-bold";
+		outline: none;
+		background: #fff;
+		padding-left: 25px;
+		@include mobile(480){
+			max-width: 270px;
+		}
+		@include mobile(1200){
+			max-width: 320px;
+		}
+		&::-moz-placeholder{
+			color: #2c7fbf;
+		}
+		&::-webkit-input-placeholder{
+			color: #2c7fbf;
+		}
+	}
+	input[type="submit"]{
+		display: inline-block;
+		vertical-align: top;
+		width: 45px;
+		height: 44px;
+		border: 1px solid #2c7fbf;
+		border-radius: 22px;
+		background: url(../img/formbox-icon.png) center center no-repeat #fff;
+		outline: none;
+		cursor: pointer;
+		margin-left: 10px;
+	}
+}
+.formbox-title{
+	display: inline-block;
+	color: #363d44;
+	font-family: "circe-regular";
+	font-size: 16px;
+	line-height: 32px;
+	span{
+		font-family: "circe-bold";
+	}
+	@include mobile(480){
+		font-size: 24px;
+		line-height: 44px;
+	}
+	@include mobile(992){
+		font-size: 24px;
+	}
+	@include mobile(1200){
+		font-size: 34px;
+	}
+	@include mobile(1600){
+		font-size: 36px;
+	}
+}
+.formbox-text{
+	display: block;
+	font-family: "circe-regular";
+	color: #585e62;
+	font-size: 12px;
+	line-height: 26px;
+	text-align: center;
+	margin-top: 10px;
+	opacity: 0.6;
+	@include mobile(1200){
+		font-size: 16px;
+		margin-top: 20px;
+	}
+}
+.formbox-textwrapp{
+	width: 100%;
+	max-width: 270px;
+	margin: 0 auto;
+	@include mobile(768){
+		margin: 0;
+	}
+	@include mobile(992){
+		max-width: 270px;
+	}
+	@include mobile(1200){
+		max-width: 320px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***********************************************/
+.advantages{
+	background: #f7f7f7;
+	padding: 30px 10px;
+	text-align: center;
+	margin-left: 0px;
+	@include mobile(768){
+		margin-left: 10px;
+	}
+	@include mobile(992){
+		padding: 30px 10px;
+	}
+	@include mobile(1200){
+		padding: 65px 65px;
+	}
+}
+.advantages-row{
+	width: 100%;
+	font-size: 0;
+	text-align: center;
+}
+.advantages-item{
+	display: block;
+	width: 100%;
+	vertical-align: top;
+	text-align: center;
+	padding: 15px 10px;
+	@include mobile(768){
+		display: inline-block;
+		width: 33.3%;
+		padding: 15px 10px;
+	}
+	@include mobile(992){
+		padding: 25px 25px;
+	}
+}
+.advantages-imgbox{
+	margin-bottom: 15px;
+}
+.advantages-title{
+	display: block;
+	font-family: "circe-bold";
+	color: #0f1c27;
+	font-size: 18px;
+	line-height: 30px;
+	text-transform: uppercase;
+	margin: 15px 0px;
+}
+.advantages-text{
+	display: block;
+	font-family: "circe-regular";
+	color: #0f1c27;
+	font-size: 17px;
+	line-height: 26px;
+}
+.advantages-toptitle{
+	display: block;
+	font-family: "circe-bold";
+	color: #0f1c27;
+	font-size: 18px;
+	line-height: 52px;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+	@include mobile(480){
+		font-size: 24px;
+	}
+}
+/***********************************************/
 .box3{
 	background: #fff;
 	width: 100%;
