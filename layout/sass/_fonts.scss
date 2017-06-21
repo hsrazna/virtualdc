@@ -1,6 +1,6 @@
 // @import "bourbon";
 
-@include font-face(circe-bold, '/fonts/circe-bold/circe-bold');
-@include font-face(circe-extra-light, '/fonts/circe-extra-light/circe-extra-light');
-@include font-face(circe-light, '/fonts/circe-light/circe-light');
-@include font-face(circe-regular, '/fonts/circe-regular/circe-regular');
+@include font-face(circe-bold, '../fonts/circe-bold/circe-bold');
+@include font-face(circe-extra-light, '../fonts/circe-extra-light/circe-extra-light');
+@include font-face(circe-light, '../fonts/circe-light/circe-light');
+@include font-face(circe-regular, '../fonts/circe-regular/circe-regular');
