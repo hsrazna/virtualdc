@@ -6,6 +6,7 @@
 	height: calc(100% - 88px);
 	background: #363636;
 	transition: all .3s ease-in-out;
+	z-index: 6;
 	@include desktop(992){
 		width: 40px;
 	}
