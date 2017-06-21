@@ -46,7 +46,6 @@
 .header-right {
   width: -webkit-calc(100% - 218px);
   width: calc(100% - 218px);
-  max-width: 1322px;
   text-align: right;
   font-size: 0;
   display: inline-block;
@@ -393,7 +392,6 @@
   display: inline-block;
   vertical-align: top;
   width: 25%;
-  max-width: 280px;
   padding-right: 3px; }
   @media only screen and (max-width: 1199px) {
     .footer-grid-item {
@@ -407,7 +405,7 @@
       margin: 10px 0;
       padding-right: 0; } }
   .footer-grid-item:first-child {
-    max-width: 220px; }
+    width: 20%; }
     @media only screen and (max-width: 1199px) {
       .footer-grid-item:first-child {
         width: 100%;
@@ -528,8 +526,66 @@
 .footer-paypal {
   background: url(../img/footer-paypal.png) no-repeat center; }
 
+.partner {
+  display: table;
+  width: 100%;
+  min-height: 240px;
+  margin: 10px 0; }
+  @media only screen and (max-width: 1199px) {
+    .partner {
+      text-align: center;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-justify-content: space-around;
+          -ms-flex-pack: distribute;
+              justify-content: space-around; } }
+
+.partner-item {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center; }
+  @media only screen and (max-width: 1199px) {
+    .partner-item {
+      display: inline-block; } }
+
+.partner-item_title {
+  min-width: 266px; }
+  @media only screen and (max-width: 1199px) {
+    .partner-item_title {
+      display: block;
+      width: 100%; } }
+
+.partner-title {
+  font-family: "circe-bold";
+  font-size: 24px;
+  line-height: 36px;
+  color: #0f1c27;
+  opacity: 0.9;
+  letter-spacing: 0.05em;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: left;
+  padding-left: 15%; }
+  @media only screen and (max-width: 1199px) {
+    .partner-title {
+      padding-left: 0;
+      text-align: center; }
+      .partner-title br {
+        display: none; } }
+
 body {
-  padding: 88px 0 0 218px; }
+  padding: 88px 0 0 218px;
+  overflow-x: hidden;
+  overflow-y: auto; }
   @media only screen and (max-width: 991px) {
     body {
       padding: 88px 0 0 40px; } }

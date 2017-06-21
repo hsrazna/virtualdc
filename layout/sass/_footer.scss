@@ -17,6 +17,8 @@
 .footer-grid{
 	padding-top: 30px;
 	font-size: 0;
+	// max-width: 80%;
+	// w1
 }
 
 .footer-grid_right{
@@ -28,7 +30,7 @@
 	display: inline-block;
 	vertical-align: top;
 	width: 25%;
-	max-width: 280px;
+	// max-width: 280px;
 	padding-right: 3px;
 	// min-height: 20px;
 
@@ -44,7 +46,8 @@
 		padding-right: 0;
 	}
 	&:first-child{
-		max-width: 220px;
+		width: 20%;
+		// max-width: 220px;
 		@include desktop(1200){
 			width: 100%;
 			max-width: 100%;
