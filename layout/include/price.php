@@ -92,7 +92,7 @@
 					</div>
 				</div>
 				<h3 class="price-title2">Количество IP</h3>
-				<div class="price-block">
+				<div class="price-block price-block_m">
 					<div class="price-block-left">
 						<div class="price-slider-wrap">
 							<div class="price-slider-log2"></div>
@@ -119,9 +119,48 @@
 						</div>
 					</div>
 				</div>
+				<p class="price-p">Бесплатно предоставляется безлимитный канал с возможностью расширения.</p>
+				<div>
+					<b class="price-dop">Дополнительные услуги</b>
+					<ul class="price-dop-list">
+						<li><label class="price-checkbox"><input type="checkbox" name="" id=""><span></span>Название номер 1</label></li>
+						<li><label class="price-checkbox"><input type="checkbox" name="" id=""><span></span>Название номер 2</label></li>
+						<li><label class="price-checkbox"><input type="checkbox" name="" id=""><span></span>Название номер 3</label></li>
+					</ul>
+				</div>
 			</div>
 			<div class="price-cont-right">
-				
+				<div class="price-price">
+					<h2 class="price-price-title">Стоимость</h2>
+					<ul class="price-price-list">
+						<li><span>Час</span><span>100.00 руб.</span></li>
+						<li><span>День</span><span>800.00 руб.</span></li>
+						<li><span>Месяц</span><span>80 000.00 руб.</span></li>
+					</ul>
+					<div class="price-button">
+						<a href="#" class="price-price-order">Заказать</a>
+					</div>
+				</div>
+				<div class="price-free">
+					<a href="#" class="price-free-link">Попробовать бесплатно</a>
+				</div>
+				<div class="price-pay">
+					<h2 class="price-price-title">способы оплаты</h2>
+					<ul class="price-pay-list">
+						<li>1.  Безналичная для юрлиц</li>
+						<li>2.  Платёжные системы
+							<ul class="price-pay-items">
+								<li class="price-pay1">MasterCard, Visa</li>
+								<li class="price-pay2">Сбер</li>
+								<li class="price-pay3"></li>
+								<li class="price-pay4"></li>
+								<li class="price-pay5"></li>
+								<li class="price-pay6">Альфа</li>
+							</ul>
+						</li>
+					</ul>
+					<a href="#" class="price-pay-link price-pay-link_m">Инструкция по оплате</a>
+				</div>
 			</div>
 		</div>
 	</div>

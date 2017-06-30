@@ -5,6 +5,14 @@ $(function() {
 		return false;
 	});
 
+	$(".price-dop").click(function(){
+		$(this).siblings(".price-dop-list").slideToggle(300);
+	});
+
+
+
+
+
 	$(".price-slider").each(function(){
 		var pmin = parseInt($(this).siblings("input[name=min-val]").val());
 		var pmax = parseInt($(this).siblings("input[name=max-val]").val());
