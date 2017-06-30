@@ -52,11 +52,19 @@
 		</div>
 		<div class="footer-grid-item">
 			<h3 class="footer-title">принимается к оплате</h3>
-			<ul class="footer-pay">
+			<ul class="price-pay-items price-pay-items_footer">
+				<li class="price-pay1">MasterCard, Visa</li>
+				<li class="price-pay2">Сбер</li>
+				<li class="price-pay3"></li>
+				<li class="price-pay4"></li>
+				<li class="price-pay5"></li>
+				<li class="price-pay6">Альфа</li>
+			</ul>
+			<!-- <ul class="footer-pay">
 				<li class="footer-visa">Visa</li>
 				<li class="footer-mastercard">MasterCard</li>
 				<li class="footer-paypal">PayPal</li>
-			</ul>
+			</ul> -->
 		</div>
 	</div>
 </footer>

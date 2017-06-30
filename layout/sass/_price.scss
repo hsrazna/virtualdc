@@ -176,19 +176,21 @@
 
 .price-block-left{
 	width: 61.76%;
-	min-width: calc(100% - 150px);
 	display: inline-block;
 	vertical-align: top;
+	@include desktop(992){
+		min-width: calc(100% - 150px);
+	}
 }
 
 .price-block-right{
 	width: 38.24%;
-	max-width: 150px;
 	display: inline-block;
 	vertical-align: top;
 	padding-left: 30px;
 	white-space: nowrap;
 	@include desktop(992){
+		max-width: 150px;
 		padding-left: 10px;
 	}
 
@@ -559,4 +561,35 @@
 
 .price-pay-link_m{
 	margin-top: 30px;
+}
+
+.price-pay-items_footer{
+	text-align: left;
+	@include desktop(992){
+		text-align: center;
+	}
+	.price-pay1{
+		width: 35px;//43px;
+		background-size: contain;
+	}
+	.price-pay2{
+		width: 31px;//38px;
+		background-size: contain;
+	}
+	.price-pay3{
+		width: 30px;//36px;
+		background-size: contain;
+	}
+	.price-pay4{
+		width: 31px;//38px;
+		background-size: contain;
+	}
+	.price-pay5{
+		width: 23px;//28px;
+		background-size: contain;
+	}
+	.price-pay6{
+		width: 21px;//25px;
+		background-size: contain;
+	}
 }
