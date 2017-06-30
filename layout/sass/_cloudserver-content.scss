@@ -1,0 +1,485 @@
+@import "vars";
+
+
+
+
+
+
+
+
+
+.cloudserver-textbox2-item{
+	width: 100%;
+	font-size: 0;
+	margin-bottom: 40px;
+}
+.cloudserver-imgbox{
+	display: inline-block;
+	width: 7%;
+	vertical-align: top;
+}
+.cloudserver-item-wrtext{
+	display: inline-block;
+	width: 93%;
+	vertical-align: top;
+	padding-left: 30px;
+}
+.cloudserver-textbox1-wrapp{
+	width: 95%;
+	@include mobile(1200){
+		width: 70%;
+	}
+}
+.cloudserver-item-title{
+	display: block;
+	color: #0f1c27;
+	font-family: "circe-bold";
+	font-size: 14px;
+	line-height: 30px;
+	text-transform: uppercase;
+	margin-bottom: 7px;
+	@include mobile(480){
+		font-size: 18px;
+	}
+}
+.cloudserver-item-text{
+	display: block;
+	color: #0f1c27;
+	font-family: "circe-regular";
+	font-size: 14px;
+	line-height: 26px;
+	@include mobile(480){
+		font-size: 17px;
+	}
+}
+.cloudserver-textbox1-span{
+	display: block;
+	font-family: "circe-regular";
+	color: #231f20;
+	font-size: 28px;
+	line-height: 38px;
+}
+.cloudserver-textbox2-span{
+	display: block;
+	font-family: "circe-regular";
+	color: #231f20;
+	font-size: 18px;
+	line-height: 30px;
+}
+.cloudserver-textbox2-span1{
+	display: block;
+	font-family: "circe-regular";
+	color: #231f20;
+	font-size: 18px;
+	line-height: 30px;
+	margin-top: 25px;
+}
+.cloudserver-textbox{
+	width: 100%;
+	font-size: 0;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #e6e6e6;
+	@include mobile(992){
+		padding-left: 20px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	@include mobile(1200){
+		padding-left: 40px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	@include mobile(1600){
+		padding-left: 80px;
+		padding-top: 65px;
+		padding-bottom: 65px;
+	}
+}
+.cloudserver-textbox1{
+	display: block;
+	width: 100%;
+	vertical-align: top;
+	@include mobile(768){
+		display: inline-block;
+		width: 40%;
+	}
+}
+.cloudserver-textbox2{
+	display: block;
+	width: 100%;
+	vertical-align: top;
+	margin-top: 30px;
+	@include mobile(768){
+		display: inline-block;
+		width: 60%;
+		margin-top: 0px;
+	}
+}
+.cloudserver-configbox{
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #e6e6e6;
+	@include mobile(992){
+		padding-left: 20px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	@include mobile(1200){
+		padding-left: 40px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	@include mobile(1600){
+		padding-left: 80px;
+		padding-top: 65px;
+		padding-bottom: 65px;
+	}
+}
+.cloudserver-configlink{
+	display: block;
+	width: 100%;
+	max-width: 240px;
+	height: 44px;
+	border: 1px solid #2c7fbf;
+	border-radius: 2px;
+	background: transparent;
+	text-align: center;
+	font-family: "circe-bold";
+	color: #2c7fbf;
+	font-size: 18px;
+	line-height: 44px;
+	margin-top: 30px;
+
+	&:hover, &:active, &:focus{
+		color: #fff;
+		border: 1px solid transparent;
+		background: #2c7fbf;
+		text-decoration: none;
+		transition: background 0.6s ease 0s;
+	}
+}
+.cloudserver-configtitle{
+	display: block;
+	font-family: "circe-regular";
+	font-size: 24px;
+	line-height: 38px;
+	color: #231f20;
+	@include mobile(992){
+		font-size: 24px;
+	}
+	@include mobile(1200){
+		font-size: 28px;
+	}
+	span{
+		color: #2c7fbf;
+	}
+}
+.cloudserver-rightlink{
+	display: inline-block;
+	width: 95%;
+	max-width: none;
+	height: 44px;
+	background: #2c7fbf;
+	border-radius: 2px;
+	font-family: "circe-bold";
+	color: #fff;
+	font-size: 18px;
+	line-height: 44px;
+	text-align: center;
+	margin: 10px 0px 10px 0px;
+	border: 1px solid transparent;
+	@include mobile(480){
+		width: 100%;
+		max-width: 150px;
+		margin: 20px 10px 20px 0px;
+	}
+	@include mobile(1200){
+		max-width: 200px;
+		margin: 20px 20px 20px 0px;
+	}
+	&:hover, &:active, &:focus{
+		color: #2c7fbf;
+		border: 1px solid #2c7fbf;
+		background: #fff;
+		text-decoration: none;
+		transition: background 0.6s ease 0s;
+	}
+}
+.cloudserver-rightlink1{
+	display: inline-block;
+	width: 95%;
+	max-width: none;
+	height: 44px;
+	background: #f29c20;
+	border-radius: 2px;
+	font-family: "circe-bold";
+	color: #fff;
+	font-size: 18px;
+	line-height: 44px;
+	text-align: center;
+	border: 1px solid transparent;
+	margin: 10px 0px 10px 0px;
+	@include mobile(480){
+		width: 100%;
+		max-width: 230px;
+		margin: 20px 0px 20px 0px;
+	}
+	@include mobile(1200){
+		max-width: 260px;
+	}
+	&:hover, &:active, &:focus{
+		color: #f29c20;
+		border: 1px solid #f29c20;
+		background: #fff;
+		text-decoration: none;
+		transition: background 0.6s ease 0s;
+	}
+}
+.cloudserver-bottomlist{
+	display: block;
+	margin-top: 20px;
+	@include mobile(1200){
+		margin-top: 20px;
+	}
+	@include mobile(1600){
+		margin-top: 45px;
+	}
+	li{
+		display: block;
+		margin-right: 0px;
+		@include mobile(480){
+			display: inline-block;
+			margin-right: 25px;
+		}
+		@include mobile(992){
+			margin-right: 5px;
+		}
+		@include mobile(1200){
+			margin-right: 14px;
+		}
+		@include mobile(1600){
+			margin-right: 40px;
+		}
+		&:last-child{
+			margin-right: 0px;
+		}
+		a{
+			display: inline-block;
+			font-family: "circe-bold";
+			font-size: 14px;
+			line-height: 30px;
+			text-transform: uppercase;
+			border-bottom: 1px solid #c2c8be;
+			color: #0f1c27;
+			@include mobile(992){
+				font-size: 12px;
+			}
+			@include mobile(1200){
+				font-size: 14px;
+			}
+			@include mobile(1600){
+				font-size: 16px;
+			}
+			&:hover, &:active, &:focus{
+				color: #f29c20;
+				text-decoration: none;
+				border-bottom: none;
+			}
+		}
+	}
+}
+.cloudbreadcrumbs-list{
+	li{
+		display: inline-block;
+		margin-left: 5px;
+		margin-right: 5px;
+		&:first-child{
+			margin-left: 0px;
+		}
+		a{
+			display: inline-block;
+			font-family: "circe-regular";
+			font-size: 16px;
+			line-height: 26px;
+			color: #231f20;
+			border-bottom: 1px solid #c2c8be;
+			&:hover, &:active, &:focus{
+				color: #231f20;
+				text-decoration: none;
+			}
+		}
+		span{
+			position: relative;
+		    top: 3px;
+			display: inline-block;
+			width: 4px;
+			height: 16px;
+			background: url(../img/cloudserver-icon.png) right center no-repeat;
+		}
+		.cloudbreadcrumbs-active{
+			display: inline-block;
+			font-family: "circe-regular";
+			font-size: 16px;
+			line-height: 26px;
+			color: #f29c20;
+			border-bottom: none;
+			&:hover, &:active, &:focus{
+				color: #f29c20;
+				text-decoration: none;
+			}
+		}
+	}
+}
+.cloudserver-toptitle{
+	display: block;
+	font-family: "circe-regular";
+	color: #0f1c27;
+	font-size: 36px;
+	line-height: 42px;
+	margin: 15px 0px 15px 0px;
+	@include mobile(768){
+		font-size: 44px;
+		line-height: 56px;
+		margin: 15px 0px 20px 0px;
+	}
+	@include mobile(1200){
+		margin: 15px 0px 20px 0px;
+	}
+	@include mobile(1600){
+		margin: 25px 0px 45px 0px;
+	}
+}
+.cloudserver-topwrapp{
+	width: 100%;
+	font-size: 0;
+}
+.cloudserver-leftbox{
+	display: block;
+	width: 95%;
+	vertical-align: top;
+	@include mobile(768){
+		width: 100%;
+	}
+	@include mobile(992){
+		display: inline-block;
+		width: 43%;
+	}
+}
+.cloudserver-rightbox{
+	display: block;
+	width: 100%;
+	vertical-align: top;
+	padding-left: 0px;
+	margin-top: 20px;
+	@include mobile(992){
+		display: inline-block;
+		width: 57%;
+		padding-left: 30px;
+		margin-top: 0px;
+	}
+	@include mobile(1200){
+		padding-left: 30px;
+	}
+	@include mobile(1600){
+		padding-left: 60px;
+	}
+}
+.cloudserver-rightbox-list{
+	li{
+		display: block;
+		margin-bottom: 0px;
+		@include mobile(1200){
+			margin-bottom: 0px;
+		}
+		@include mobile(1600){
+			margin-bottom: 5px;
+		}
+		span{
+			display: block;
+			color: #231f20;
+			font-family: "circe-regular";
+			font-size: 14px;
+			line-height: 30px;
+			background: url(../img/cloudserver-icon1.png) left center no-repeat;
+			padding-left: 20px;
+			@include mobile(768){
+				font-size: 16px;
+			}
+			@include mobile(992){
+				font-size: 12px;
+			}
+			@include mobile(1200){
+				font-size: 14px;
+			}
+			@include mobile(1600){
+				font-size: 18px;
+			}
+		}
+	}
+}
+.cloudserver-breadcrumbs{
+	padding-left: 20px;
+	@include mobile(992){
+		padding-left: 20px;
+	}
+	@include mobile(1200){
+		padding-left: 40px;
+	}
+	@include mobile(1600){
+		padding-left: 80px;
+	}
+}
+.cloudserver-top{
+	border-bottom: 1px solid #e6e6e6;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	@include mobile(992){
+		padding-left: 20px;
+	}
+	@include mobile(1200){
+		padding-left: 40px;
+	}
+	@include mobile(1600){
+		padding-left: 80px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

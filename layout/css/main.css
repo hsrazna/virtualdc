@@ -1372,6 +1372,430 @@ body {
     .topbox-wrapp {
       margin-top: 0px; } }
 
+.cloudserver-textbox2-item {
+  width: 100%;
+  font-size: 0;
+  margin-bottom: 40px; }
+
+.cloudserver-imgbox {
+  display: inline-block;
+  width: 7%;
+  vertical-align: top; }
+
+.cloudserver-item-wrtext {
+  display: inline-block;
+  width: 93%;
+  vertical-align: top;
+  padding-left: 30px; }
+
+.cloudserver-textbox1-wrapp {
+  width: 95%; }
+  @media only screen and (min-width: 1200px) {
+    .cloudserver-textbox1-wrapp {
+      width: 70%; } }
+
+.cloudserver-item-title {
+  display: block;
+  color: #0f1c27;
+  font-family: "circe-bold";
+  font-size: 14px;
+  line-height: 30px;
+  text-transform: uppercase;
+  margin-bottom: 7px; }
+  @media only screen and (min-width: 480px) {
+    .cloudserver-item-title {
+      font-size: 18px; } }
+
+.cloudserver-item-text {
+  display: block;
+  color: #0f1c27;
+  font-family: "circe-regular";
+  font-size: 14px;
+  line-height: 26px; }
+  @media only screen and (min-width: 480px) {
+    .cloudserver-item-text {
+      font-size: 17px; } }
+
+.cloudserver-textbox1-span {
+  display: block;
+  font-family: "circe-regular";
+  color: #231f20;
+  font-size: 28px;
+  line-height: 38px; }
+
+.cloudserver-textbox2-span {
+  display: block;
+  font-family: "circe-regular";
+  color: #231f20;
+  font-size: 18px;
+  line-height: 30px; }
+
+.cloudserver-textbox2-span1 {
+  display: block;
+  font-family: "circe-regular";
+  color: #231f20;
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 25px; }
+
+.cloudserver-textbox {
+  width: 100%;
+  font-size: 0;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e6e6e6; }
+  @media only screen and (min-width: 992px) {
+    .cloudserver-textbox {
+      padding-left: 20px;
+      padding-top: 20px;
+      padding-bottom: 20px; } }
+  @media only screen and (min-width: 1200px) {
+    .cloudserver-textbox {
+      padding-left: 40px;
+      padding-top: 30px;
+      padding-bottom: 30px; } }
+  @media only screen and (min-width: 1600px) {
+    .cloudserver-textbox {
+      padding-left: 80px;
+      padding-top: 65px;
+      padding-bottom: 65px; } }
+
+.cloudserver-textbox1 {
+  display: block;
+  width: 100%;
+  vertical-align: top; }
+  @media only screen and (min-width: 768px) {
+    .cloudserver-textbox1 {
+      display: inline-block;
+      width: 40%; } }
+
+.cloudserver-textbox2 {
+  display: block;
+  width: 100%;
+  vertical-align: top;
+  margin-top: 30px; }
+  @media only screen and (min-width: 768px) {
+    .cloudserver-textbox2 {
+      display: inline-block;
+      width: 60%;
+      margin-top: 0px; } }
+
+.cloudserver-configbox {
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e6e6e6; }
+  @media only screen and (min-width: 992px) {
+    .cloudserver-configbox {
+      padding-left: 20px;
+      padding-top: 20px;
+      padding-bottom: 20px; } }
+  @media only screen and (min-width: 1200px) {
+    .cloudserver-configbox {
+      padding-left: 40px;
+      padding-top: 30px;
+      padding-bottom: 30px; } }
+  @media only screen and (min-width: 1600px) {
+    .cloudserver-configbox {
+      padding-left: 80px;
+      padding-top: 65px;
+      padding-bottom: 65px; } }
+
+.cloudserver-configlink {
+  display: block;
+  width: 100%;
+  max-width: 240px;
+  height: 44px;
+  border: 1px solid #2c7fbf;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  background: transparent;
+  text-align: center;
+  font-family: "circe-bold";
+  color: #2c7fbf;
+  font-size: 18px;
+  line-height: 44px;
+  margin-top: 30px; }
+  .cloudserver-configlink:hover, .cloudserver-configlink:active, .cloudserver-configlink:focus {
+    color: #fff;
+    border: 1px solid transparent;
+    background: #2c7fbf;
+    text-decoration: none;
+    -webkit-transition: background 0.6s ease 0s;
+    transition: background 0.6s ease 0s; }
+
+.cloudserver-configtitle {
+  display: block;
+  font-family: "circe-regular";
+  font-size: 24px;
+  line-height: 38px;
+  color: #231f20; }
+  @media only screen and (min-width: 992px) {
+    .cloudserver-configtitle {
+      font-size: 24px; } }
+  @media only screen and (min-width: 1200px) {
+    .cloudserver-configtitle {
+      font-size: 28px; } }
+  .cloudserver-configtitle span {
+    color: #2c7fbf; }
+
+.cloudserver-rightlink {
+  display: inline-block;
+  width: 95%;
+  max-width: none;
+  height: 44px;
+  background: #2c7fbf;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  font-family: "circe-bold";
+  color: #fff;
+  font-size: 18px;
+  line-height: 44px;
+  text-align: center;
+  margin: 10px 0px 10px 0px;
+  border: 1px solid transparent; }
+  @media only screen and (min-width: 480px) {
+    .cloudserver-rightlink {
+      width: 100%;
+      max-width: 150px;
+      margin: 20px 10px 20px 0px; } }
+  @media only screen and (min-width: 1200px) {
+    .cloudserver-rightlink {
+      max-width: 200px;
+      margin: 20px 20px 20px 0px; } }
+  .cloudserver-rightlink:hover, .cloudserver-rightlink:active, .cloudserver-rightlink:focus {
+    color: #2c7fbf;
+    border: 1px solid #2c7fbf;
+    background: #fff;
+    text-decoration: none;
+    -webkit-transition: background 0.6s ease 0s;
+    transition: background 0.6s ease 0s; }
+
+.cloudserver-rightlink1 {
+  display: inline-block;
+  width: 95%;
+  max-width: none;
+  height: 44px;
+  background: #f29c20;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  font-family: "circe-bold";
+  color: #fff;
+  font-size: 18px;
+  line-height: 44px;
+  text-align: center;
+  border: 1px solid transparent;
+  margin: 10px 0px 10px 0px; }
+  @media only screen and (min-width: 480px) {
+    .cloudserver-rightlink1 {
+      width: 100%;
+      max-width: 230px;
+      margin: 20px 0px 20px 0px; } }
+  @media only screen and (min-width: 1200px) {
+    .cloudserver-rightlink1 {
+      max-width: 260px; } }
+  .cloudserver-rightlink1:hover, .cloudserver-rightlink1:active, .cloudserver-rightlink1:focus {
+    color: #f29c20;
+    border: 1px solid #f29c20;
+    background: #fff;
+    text-decoration: none;
+    -webkit-transition: background 0.6s ease 0s;
+    transition: background 0.6s ease 0s; }
+
+.cloudserver-bottomlist {
+  display: block;
+  margin-top: 20px; }
+  @media only screen and (min-width: 1200px) {
+    .cloudserver-bottomlist {
+      margin-top: 20px; } }
+  @media only screen and (min-width: 1600px) {
+    .cloudserver-bottomlist {
+      margin-top: 45px; } }
+  .cloudserver-bottomlist li {
+    display: block;
+    margin-right: 0px; }
+    @media only screen and (min-width: 480px) {
+      .cloudserver-bottomlist li {
+        display: inline-block;
+        margin-right: 25px; } }
+    @media only screen and (min-width: 992px) {
+      .cloudserver-bottomlist li {
+        margin-right: 5px; } }
+    @media only screen and (min-width: 1200px) {
+      .cloudserver-bottomlist li {
+        margin-right: 14px; } }
+    @media only screen and (min-width: 1600px) {
+      .cloudserver-bottomlist li {
+        margin-right: 40px; } }
+    .cloudserver-bottomlist li:last-child {
+      margin-right: 0px; }
+    .cloudserver-bottomlist li a {
+      display: inline-block;
+      font-family: "circe-bold";
+      font-size: 14px;
+      line-height: 30px;
+      text-transform: uppercase;
+      border-bottom: 1px solid #c2c8be;
+      color: #0f1c27; }
+      @media only screen and (min-width: 992px) {
+        .cloudserver-bottomlist li a {
+          font-size: 12px; } }
+      @media only screen and (min-width: 1200px) {
+        .cloudserver-bottomlist li a {
+          font-size: 14px; } }
+      @media only screen and (min-width: 1600px) {
+        .cloudserver-bottomlist li a {
+          font-size: 16px; } }
+      .cloudserver-bottomlist li a:hover, .cloudserver-bottomlist li a:active, .cloudserver-bottomlist li a:focus {
+        color: #f29c20;
+        text-decoration: none;
+        border-bottom: none; }
+
+.cloudbreadcrumbs-list li {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px; }
+  .cloudbreadcrumbs-list li:first-child {
+    margin-left: 0px; }
+  .cloudbreadcrumbs-list li a {
+    display: inline-block;
+    font-family: "circe-regular";
+    font-size: 16px;
+    line-height: 26px;
+    color: #231f20;
+    border-bottom: 1px solid #c2c8be; }
+    .cloudbreadcrumbs-list li a:hover, .cloudbreadcrumbs-list li a:active, .cloudbreadcrumbs-list li a:focus {
+      color: #231f20;
+      text-decoration: none; }
+  .cloudbreadcrumbs-list li span {
+    position: relative;
+    top: 3px;
+    display: inline-block;
+    width: 4px;
+    height: 16px;
+    background: url(../img/cloudserver-icon.png) right center no-repeat; }
+  .cloudbreadcrumbs-list li .cloudbreadcrumbs-active {
+    display: inline-block;
+    font-family: "circe-regular";
+    font-size: 16px;
+    line-height: 26px;
+    color: #f29c20;
+    border-bottom: none; }
+    .cloudbreadcrumbs-list li .cloudbreadcrumbs-active:hover, .cloudbreadcrumbs-list li .cloudbreadcrumbs-active:active, .cloudbreadcrumbs-list li .cloudbreadcrumbs-active:focus {
+      color: #f29c20;
+      text-decoration: none; }
+
+.cloudserver-toptitle {
+  display: block;
+  font-family: "circe-regular";
+  color: #0f1c27;
+  font-size: 36px;
+  line-height: 42px;
+  margin: 15px 0px 15px 0px; }
+  @media only screen and (min-width: 768px) {
+    .cloudserver-toptitle {
+      font-size: 44px;
+      line-height: 56px;
+      margin: 15px 0px 20px 0px; } }
+  @media only screen and (min-width: 1200px) {
+    .cloudserver-toptitle {
+      margin: 15px 0px 20px 0px; } }
+  @media only screen and (min-width: 1600px) {
+    .cloudserver-toptitle {
+      margin: 25px 0px 45px 0px; } }
+
+.cloudserver-topwrapp {
+  width: 100%;
+  font-size: 0; }
+
+.cloudserver-leftbox {
+  display: block;
+  width: 95%;
+  vertical-align: top; }
+  @media only screen and (min-width: 768px) {
+    .cloudserver-leftbox {
+      width: 100%; } }
+  @media only screen and (min-width: 992px) {
+    .cloudserver-leftbox {
+      display: inline-block;
+      width: 43%; } }
+
+.cloudserver-rightbox {
+  display: block;
+  width: 100%;
+  vertical-align: top;
+  padding-left: 0px;
+  margin-top: 20px; }
+  @media only screen and (min-width: 992px) {
+    .cloudserver-rightbox {
+      display: inline-block;
+      width: 57%;
+      padding-left: 30px;
+      margin-top: 0px; } }
+  @media only screen and (min-width: 1200px) {
+    .cloudserver-rightbox {
+      padding-left: 30px; } }
+  @media only screen and (min-width: 1600px) {
+    .cloudserver-rightbox {
+      padding-left: 60px; } }
+
+.cloudserver-rightbox-list li {
+  display: block;
+  margin-bottom: 0px; }
+  @media only screen and (min-width: 1200px) {
+    .cloudserver-rightbox-list li {
+      margin-bottom: 0px; } }
+  @media only screen and (min-width: 1600px) {
+    .cloudserver-rightbox-list li {
+      margin-bottom: 5px; } }
+  .cloudserver-rightbox-list li span {
+    display: block;
+    color: #231f20;
+    font-family: "circe-regular";
+    font-size: 14px;
+    line-height: 30px;
+    background: url(../img/cloudserver-icon1.png) left center no-repeat;
+    padding-left: 20px; }
+    @media only screen and (min-width: 768px) {
+      .cloudserver-rightbox-list li span {
+        font-size: 16px; } }
+    @media only screen and (min-width: 992px) {
+      .cloudserver-rightbox-list li span {
+        font-size: 12px; } }
+    @media only screen and (min-width: 1200px) {
+      .cloudserver-rightbox-list li span {
+        font-size: 14px; } }
+    @media only screen and (min-width: 1600px) {
+      .cloudserver-rightbox-list li span {
+        font-size: 18px; } }
+
+.cloudserver-breadcrumbs {
+  padding-left: 20px; }
+  @media only screen and (min-width: 992px) {
+    .cloudserver-breadcrumbs {
+      padding-left: 20px; } }
+  @media only screen and (min-width: 1200px) {
+    .cloudserver-breadcrumbs {
+      padding-left: 40px; } }
+  @media only screen and (min-width: 1600px) {
+    .cloudserver-breadcrumbs {
+      padding-left: 80px; } }
+
+.cloudserver-top {
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 20px;
+  padding-left: 20px; }
+  @media only screen and (min-width: 992px) {
+    .cloudserver-top {
+      padding-left: 20px; } }
+  @media only screen and (min-width: 1200px) {
+    .cloudserver-top {
+      padding-left: 40px; } }
+  @media only screen and (min-width: 1600px) {
+    .cloudserver-top {
+      padding-left: 80px; } }
+
 ul {
   padding: 0;
   margin: 0; }
@@ -1384,3 +1808,7 @@ p {
   min-height: 20px;
   padding-left: 0px !important;
   padding-right: 0px !important; }
+
+.responsive-img {
+  height: auto;
+  max-width: 100%; }
